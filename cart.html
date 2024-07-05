@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img class="logo"  src="images/logo.png" alt="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a  href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i id="lg-bag" class="ri-shopping-bag-line"></i></a></li>
+                <i id="close" class="ri-subscript"></i>
+            </ul>
+        </div>
+        <div id="mobile">
+
+            <a href="cart.html"><i class="ri-shopping-bag-line"></i></a>
+            <i id="bar" class="ri-menu-line"></i>
+        </div>
+    </section>
+
+    <section id="cart-header" class="cart-header section-p1">
+        <h2>#Shopping</h2>
+        <p>Buy good quality products.</p>
+    </section>
+
+    <section id="cart" class="section-p2">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="ri-close-circle-line"></i></td>
+                    <td><img src="images/f1.jpg" alt=""></td>
+                    <td>Cartoon Astronaut T-shirt</td>
+                    <td>$118</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.0</td>
+                </tr>
+
+                <tr>
+                    <td><i class="ri-close-circle-line"></i></td>
+                    <td><img src="images/f2.jpg" alt=""></td>
+                    <td>Printed Flower T-shirt</td>
+                    <td>$105</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$105.0</td>
+                </tr>
+
+                <tr>
+                    <td><i class="ri-close-circle-line"></i></td>
+                    <td><img src="images/f3.jpg" alt=""></td>
+                    <td>Printed Flower T-Shirt</td>
+                    <td>$150</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$150.0</td>
+                </tr>
+
+                <tr>
+                    <td><i class="ri-close-circle-line"></i></td>
+                    <td><img src="images/f4.jpg" alt=""></td>
+                    <td>T-shirt</td>
+                    <td>$65</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$65.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div id="c-input">
+                <input type="text" placeholder="Enter your coupon code">
+                <button class="normal" onclick="window.location.href='sorry.html'; ">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$338</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>$338</strong></td>
+                </tr>
+            </table>
+            <button class="normal" onclick="window.location.href='sorry.html'; ">Proceed to checkout</button>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div id="newtext">
+            <h4>Sign up for newsletters</h4>
+            <p>Get e-mal updates for our latest stock and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Enter your e-mail adrress ">
+            <button class="normal" onclick="window.location.href='login.html'; ">Sign up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="images/logo.png" alt="">
+            <h4>Contact</h4>
+            <p> <strong>Address: </strong>Sector 32A, Bengaluru, India </p>
+            <p> <strong>Phone: </strong> 8360011495 </p>
+            <p><strong>Hours: </strong>10:00 AM - 5:00 PM, MON-SAT</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icons">
+                    <i class="ri-instagram-fill"></i>
+                    <i class="ri-pinterest-fill"></i>
+                    <i class="ri-youtube-fill"></i>
+                    <i class="ri-twitter-fill"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About us</a>
+            <a href="#">Delivery information</a>
+            <a href="#">Privacy policy</a>
+            <a href="#">terms & conditons</a>
+            <a href="#">Contact us</a>
+        </div>
+        <div class="col">
+            <h4>My account</h4>
+            <a href="#">Sign in</a>
+            <a href="#">View cart</a>
+            <a href="#">My wishlist</a>
+            <a href="#">Track my order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install app</h4>
+            <p>from app store or google play store</p>
+            <div class="row">
+                <img src="images/app.jpg" alt="">
+                <img src="images/play.jpg" alt="">
+            </div>
+            <p>Secured payment gateways</p>
+            <img src="images/pay.png" alt="">
+        </div>
+
+        <div class="copyright">
+            <p>© 2024, tech-etc- HTML CSS & Javascript Ecommerce websites.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
